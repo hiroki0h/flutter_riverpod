@@ -20,7 +20,6 @@ class FutureProviderScreen extends ConsumerWidget {
             data: (data) {
               return Text(
                 data.toString(),
-                textAlign: TextAlign.center,
               );
             },
             error: (err, stack) => Text(

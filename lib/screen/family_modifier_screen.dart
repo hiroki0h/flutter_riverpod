@@ -16,7 +16,6 @@ class FamilyModifierScreen extends ConsumerWidget {
         child: state.when(
           data: (data) => Text(
             data.toString(),
-            textAlign: TextAlign.center,
           ),
           error: (err, stack) => Text(
             err.toString(),
